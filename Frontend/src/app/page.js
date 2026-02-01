@@ -282,9 +282,9 @@ const Page = () => {
     if (activeTab === 'deals') apiTab = 'todays-deals';
 
     if (activeTab === 'all') {
-      fetchProducts(100);
+      fetchProducts(5000);
     } else {
-      fetchProductsByFilter?.(apiTab, 100) || fetchProducts(100);
+      fetchProductsByFilter?.(apiTab, 5000) || fetchProducts(5000);
     }
   }, [activeTab, fetchProducts, fetchProductsByFilter]);
 

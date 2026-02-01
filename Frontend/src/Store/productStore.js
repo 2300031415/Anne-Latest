@@ -17,7 +17,7 @@ export const useProductStore = create((set) => ({
   // =============================
   // FETCH ALL PRODUCTS
   // =============================
-  fetchProducts: async (limit = 100) => {
+  fetchProducts: async (limit = 5000) => {
     set({ isProductsLoading: true, error: null });
 
     try {
@@ -44,7 +44,7 @@ export const useProductStore = create((set) => ({
   // =============================
   // FETCH PRODUCTS BY FILTER (Tab)
   // =============================
-  fetchProductsByFilter: async (filterType, limit = 100) => {
+  fetchProductsByFilter: async (filterType, limit = 5000) => {
     set({ isProductsLoading: true, error: null });
 
     try {

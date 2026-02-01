@@ -6,8 +6,8 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const whatsapp_icon = () => {
   const socialIcons = [
-    { href: "https://www.facebook.com/hb.annecreations/", color: '#1877F2', icon: <FaFacebook size={24} color="#1877F2" /> },
-    { href: "https://www.instagram.com/anne.creationshb/", color: '#E4405F', icon: <FaInstagram size={24} color="#E4405F" /> },
+    { href: "https://www.facebook.com/AnneCreations.HB", color: '#1877F2', icon: <FaFacebook size={24} color="#1877F2" /> },
+    { href: "https://www.instagram.com/annecreations.hb", color: '#E4405F', icon: <FaInstagram size={24} color="#E4405F" /> },
     { href: "https://www.youtube.com/@annecreationHB/", color: '#FF0000', icon: <FaYoutube size={24} color="#FF0000" /> },
   ];
 

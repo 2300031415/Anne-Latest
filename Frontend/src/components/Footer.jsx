@@ -25,8 +25,8 @@ const Footer = () => {
   ];
 
   const socialIcons = [
-    { href: "https://www.facebook.com/hb.annecreations/", color: 'var(--secondary)', icon: <FaFacebook size={22} /> },
-    { href: "https://www.instagram.com/anne.creationshb/", color: 'var(--secondary)', icon: <FaInstagram size={22} /> },
+    { href: "https://www.facebook.com/AnneCreations.HB", color: 'var(--secondary)', icon: <FaFacebook size={22} /> },
+    { href: "https://www.instagram.com/annecreations.hb", color: 'var(--secondary)', icon: <FaInstagram size={22} /> },
     { href: "https://in.pinterest.com/Annecreationshb9/", color: 'var(--secondary)', icon: <FaPinterest size={22} /> },
     { href: "https://www.youtube.com/@annecreationHB/", color: 'var(--secondary)', icon: <FaYoutube size={22} /> },
     { href: "https://www.whatsapp.com/channel/0029VaE0dx99Bb60W0dWpv2o", color: 'var(--secondary)', icon: <FaWhatsapp size={22} /> },

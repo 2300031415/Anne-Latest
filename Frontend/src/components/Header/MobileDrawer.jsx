@@ -242,16 +242,16 @@ const MobileDrawer = ({ onClose }) => {
 
       {/* 5. Social Media Footer */}
       <Box sx={{ p: 2, display: 'flex', justifyContent: 'center', gap: 3, bgcolor: '#fafafa', borderTop: '1px solid #f0f0f0' }}>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-[var(--secondary)] hover:text-[var(--primary)] transition-colors">
+        <a href="https://www.facebook.com/AnneCreations.HB" target="_blank" rel="noopener noreferrer" className="text-[var(--secondary)] hover:text-[var(--primary)] transition-colors">
           <FaFacebook size={24} />
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-[var(--secondary)] hover:text-[var(--primary)] transition-colors">
+        <a href="https://www.instagram.com/annecreations.hb" target="_blank" rel="noopener noreferrer" className="text-[var(--secondary)] hover:text-[var(--primary)] transition-colors">
           <FaInstagram size={24} />
         </a>
         <a href="https://wa.me/919951916767" target="_blank" rel="noopener noreferrer" className="text-[var(--secondary)] hover:text-[var(--primary)] transition-colors">
           <FaWhatsapp size={24} />
         </a>
-        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-[var(--secondary)] hover:text-[var(--primary)] transition-colors">
+        <a href="https://www.youtube.com/@annecreationHB" target="_blank" rel="noopener noreferrer" className="text-[var(--secondary)] hover:text-[var(--primary)] transition-colors">
           <FaYoutube size={24} />
         </a>
       </Box>
