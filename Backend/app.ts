@@ -199,6 +199,10 @@ app.use('/api/contact', contactRoutes);
 import designRequestRoutes from './routes/designRequest.routes';
 app.use('/api/design-requests', designRequestRoutes);
 
+// AI Assistant
+import aiRoutes from './routes/ai.routes';
+app.use('/api/ai', aiRoutes);
+
 // Search & Discovery
 app.use('/api/search', searchRoutes);
 

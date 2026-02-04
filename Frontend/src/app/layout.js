@@ -4,6 +4,7 @@ import Header from '@/components/Header/Header';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import ScrollToTop from '@/components/ScrollTotop';
 import WhatsappIcon from '@/components/whatsapp_icon';
+import AiChat from '@/components/AiChat/AiChat';
 import { AnalyticsProvider } from '@/Provider/AnalyticsProvider';
 import { NotistackProvider } from '@/Provider/NotiStackProvider';
 import LoginPopup from '@/components/Auth/LoginPopup';
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
               {children}
             </NotistackProvider>
             <WhatsappIcon />
+            <AiChat />
             <ScrollToTop />
             <LoginPopup />
             <Footer />
